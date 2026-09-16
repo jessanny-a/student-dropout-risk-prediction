@@ -1,0 +1,10 @@
+[project]
+name = "student-dropout-risk-prediction"
+version = "1.0.0"
+description = "Explainable and fairness-audited student dropout risk prediction capstone"
+requires-python = ">=3.13,<3.14"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
