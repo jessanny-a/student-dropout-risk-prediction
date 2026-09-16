@@ -1,0 +1,36 @@
+{
+  "model_name": "XGBoost",
+  "prediction_horizon": "End of Semester 1",
+  "decision_threshold": 0.48,
+  "training_records": 2904,
+  "holdout_records": 726,
+  "raw_feature_count": 37,
+  "source_qa": {
+    "rows": 4424,
+    "columns": 37,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "target_counts": {
+      "Graduate": 2209,
+      "Dropout": 1421,
+      "Enrolled": 794
+    }
+  },
+  "holdout_metrics": {
+    "threshold": 0.48,
+    "accuracy": 0.8939393939393939,
+    "balanced_accuracy": 0.8902396278121216,
+    "precision": 0.8581314878892734,
+    "recall": 0.8732394366197183,
+    "f1": 0.8656195462478184,
+    "f2": 0.8701754385964913,
+    "specificity": 0.9072398190045249,
+    "alert_rate": 0.39807162534435264,
+    "true_negatives": 401.0,
+    "false_positives": 41.0,
+    "false_negatives": 36.0,
+    "true_positives": 248.0,
+    "roc_auc": 0.9540102606589765,
+    "pr_auc": 0.9491678597265526
+  }
+}
