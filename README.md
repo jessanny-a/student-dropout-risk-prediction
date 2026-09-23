@@ -121,7 +121,7 @@ See:
 
 The final 726-record holdout must remain untouched by future tuning or mitigation work.
 
-## Step 6 Presentations
+## Presentations
 
 - `presentations/student_dropout_technical_deck.pptx`
 - `presentations/student_dropout_business_deck.pptx`
