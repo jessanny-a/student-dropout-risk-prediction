@@ -41,9 +41,13 @@ student-dropout-risk-prediction/
 │   ├── governance.py
 │   └── run_pipeline.py
 ├── notebooks/
-│   ├── 01_student_dropout_capstone.ipynb
-│   └── 01_student_dropout_capstone_no_outputs.ipynb
+│   ├── Student_Dropout_Capstone.ipynb
+│   └── Student_Dropout_Capstone_No_Outputs.ipynb
 ├── data/
+│   ├── raw/
+│       └── Predict Student Dropout.csv
+│   ├── DATA_LICENSE_AND_ATTRIBUTION.md
+│   └── README.md
 ├── models/
 ├── reports/
 │   └── final_report.md
