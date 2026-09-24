@@ -1,10 +1,19 @@
 # Models
 
-This directory contains the frozen final model artifact reproduced from the public UCI dataset.
+This directory contains the frozen final model artifact and its deployment metadata.
 
-- `final_student_dropout_xgboost.joblib` - preprocessing pipeline + final XGBoost classifier
-- `final_deployment_config.json` - threshold, prediction horizon, data counts, and final metrics
+- `final_student_dropout_xgboost.joblib` — preprocessing pipeline plus final XGBoost classifier
+- `final_deployment_config.json` — prediction horizon, frozen threshold, source-data QA, record counts, and final holdout metrics
 
-Frozen operating threshold: **0.48**.
+## Frozen Configuration
 
-**Security note:** Joblib/pickle artifacts can execute code when loaded. Only load this file from a trusted copy of this repository and verify its SHA-256 hash against `MANIFEST_SHA256.txt`.
+- Model: **XGBoost**
+- Prediction horizon: **End of Semester 1**
+- Operating threshold: **0.48**
+- Approved use: **Supportive decision support only**
+
+## Security Note
+
+Joblib/pickle artifacts can execute code when deserialized. Only load the model artifact from a trusted copy of this repository and in a controlled Python environment.
+
+The model artifact is provided for reproducibility and demonstration. Operational deployment should also enforce the governance controls documented in `docs/responsible_ai.md`.
