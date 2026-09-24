@@ -16,7 +16,7 @@ Realinho, V., Vieira Martins, M., Machado, J., & Baptista, L. (2021). *Predict S
 
 ## Repository Policy
 
-The raw CSV is not bundled in this package. For reproducibility, obtain the UCI dataset and place the source file at:
+The raw CSV is not bundled in this package. For reproducibility, the UCI dataset source file is at:
 
 `data/raw/Predict Student Dropout.csv`
 
