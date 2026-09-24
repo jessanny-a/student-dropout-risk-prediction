@@ -1,6 +1,8 @@
 # Presentations
 
-- `Student_Dropout_Technical_Jupyter_Slides.ipynb`
-- `Student_Dropout_Business_Deck.pptx`
+Final Step 6 presentation deliverables:
 
-The downloadable project package includes the presentation files prepared for this capstone. The repository documentation preserves the presentation deliverable paths and project context.
+- `student_dropout_technical_jupyter_slides.ipynb` — technical Jupyter slideshow for peer/technical review.
+- `student_dropout_business_deck.pptx` — business-facing PowerPoint for executive and stakeholder communication.
+
+The technical deck covers modeling, validation, explainability, fairness, limitations, and governance. The business deck emphasizes decision value, operational workload, risk, and responsible deployment.
